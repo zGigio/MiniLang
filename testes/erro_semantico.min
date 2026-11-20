@@ -1,0 +1,5 @@
+programa {
+    inteiro idade;
+    idade = 24;
+    altura = 1.82;
+}

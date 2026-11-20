@@ -1,0 +1,12 @@
+# Executáveis
+minilang
+
+# Arquivos gerados pelo Bison
+parser.tab.c
+parser.tab.h
+
+# Arquivos gerados pelo Flex
+lex.yy.c
+
+# Arquivos temporários
+*.o

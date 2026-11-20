@@ -1,0 +1,27 @@
+
+programa {
+
+    inteiro idade;
+    real altura;
+    texto nome;
+    booleano aprovado;
+
+    nome = "Giovanni";
+    idade = 24;
+    altura = 1.82;
+    aprovado = verdadeiro;
+
+    escreva("Meu nome:");
+    escreva(nome);
+
+    se (idade >= 18) {
+        escreva("Maior de idade!");
+    } senao {
+        escreva("Menor de idade!");
+    }
+
+    enquanto (idade < 25) {
+        idade = idade + 1;
+    }
+
+}
